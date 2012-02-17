@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="out/ide/nbc" path="src/nbc"/>
+	<classpathentry kind="src" output="out/ide/test" path="src/test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.nabucco.framework.monitor.facade.component"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.nabucco.framework.monitor.facade.datatype"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.nabucco.framework.monitor.facade.exception"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.nabucco.framework.monitor.facade.message"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.nabucco.framework.monitor.facade.service"/>
+	<classpathentry kind="lib" path="lib/test/log4j.jar"/>
+	<classpathentry kind="lib" path="lib/test/org.nabucco.framework.base.facade.jar"/>
+	<classpathentry kind="lib" path="lib/test/org.nabucco.framework.base.test.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JBOSS"/>
+	<classpathentry kind="output" path="out/ide"/>
+</classpath>
