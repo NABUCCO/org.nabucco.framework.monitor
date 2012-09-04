@@ -267,7 +267,7 @@ public abstract class OperationStatistic implements MonitorStatistic {
      * Reset all collected values.
      */
     public void reset() {
-        this.minDuration = 0l;
+        this.minDuration = Long.MAX_VALUE;
         this.minTimestamp = 0l;
         this.maxDuration = 0l;
         this.maxTimestamp = 0l;
